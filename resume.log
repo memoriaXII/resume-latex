@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.2)  3 AUG 2025 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.8.2)  3 AUG 2025 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,15 +275,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 59.
+(hyperref)                removing `\hfill' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 72.
+(hyperref)                removing `\hfill' on input line 75.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 86.
+(hyperref)                removing `\hfill' on input line 89.
 
 
 
@@ -292,25 +292,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 95.
+(hyperref)                removing `\hfill' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 104.
+(hyperref)                removing `\hfill' on input line 107.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 113.
+(hyperref)                removing `\hfill' on input line 116.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--129
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
 
  []
 
 
 
 [2]
-Overfull \hbox (2.06702pt too wide) in paragraph at lines 147--148
+Overfull \hbox (2.06702pt too wide) in paragraph at lines 150--151
 []\OT1/cmr/m/n/10 Developed fron-tend so-lu-tions us-ing JavaScript, Type-Script, Re-act, Redux-Toolkit, and Jest, in-te-grat-ing Web3.js
  []
 
@@ -325,15 +325,15 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 70A9DE286DD0CAA9873579E27DF26463;3383.
  ) 
 Here is how much of TeX's memory you used:
- 9672 strings out of 473190
- 149387 string characters out of 5715801
- 576703 words of memory out of 5000000
- 32839 multiletter control sequences out of 15000+600000
+ 9673 strings out of 473190
+ 149416 string characters out of 5715801
+ 578703 words of memory out of 5000000
+ 32840 multiletter control sequences out of 15000+600000
  562418 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,599b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,599b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on resume.pdf (3 pages, 132172 bytes).
+Output written on resume.pdf (3 pages, 132200 bytes).
 PDF statistics:
  110 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
