@@ -1,0 +1,153 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+
+% Hyperref setup for clean links
+\hypersetup{
+    colorlinks=false,
+    pdfborder={0 0 0},
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+% Subsection formatting
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\huge \textbf{Chou Cheng Lei (Eli)}}\\
+    \vspace{5pt}
+    (886) 9011-362-56 | chenglei.chou@email.com | github.com/memoriaXII | linkedin.com/in/cheng-lei
+\end{center}
+
+\vspace{0pt}
+
+% Education Section
+\section{Education}
+\textbf{James Cook University}, Brisbane, Australia \hfill \textit{2015 -- 2019}\\
+- Bachelor of Information Technology - Computing and Networking\\
+
+\vspace{0pt}
+
+% Skills Section - Enhanced for 2025 Blockchain Frontend
+
+\section{Skills}
+\begin{itemize}[leftmargin=1.5em, itemsep=0pt, topsep=0pt]
+  \item \textbf{Languages:} JavaScript, TypeScript, Solidity
+  \item \textbf{Frontend:} React, Next.js, Vue.js, HTML/CSS, Tailwind CSS
+  \item \textbf{Backend:} Node.js, Nest.js, MongoDB, PostgreSQL
+  \item \textbf{Blockchain:} Web3.js, Ethers.js, Wagmi, Viem, Hardhat, Foundry
+  \item \textbf{Tools \& Infrastructure:} Git, Docker, AWS (CDK) , Jest
+\end{itemize}
+
+\vspace{0pt}
+
+% Working Experience Section
+\section{Working Experience}
+\subsection{Founding Fullstack Engineer, Aerix Protocol, Singapore \hfill \textit{Mar.2025 -- Present}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Led end-to-end development of a scalable financial web platform from 0-to-1, serving 7,800+ active users and processing \$1.5M+ in transactions during the initial launch.}
+    \resumeItem{Designed and implemented distributed routing algorithms with order-splitting across 15+ data sources, improving throughput and ensuring reliable execution under high concurrency.}
+    \resumeItem{Built a high-performance aggregation engine handling 70K+ transactions with 99.9\% reliability, integrating 30+ external services and APIs.}
+    \resumeItem{Developed middleware for transaction validation and cost estimation in Node.js, reducing failed operations by 25\%+ through simulation-based checks.}
+    \resumeItem{Delivered user-facing dashboards and admin tools with React, Next.js, and TypeScript, integrated with WebSocket APIs for real-time transaction monitoring.}
+    \resumeItem{Engineered backend services with PostgreSQL clustering, Redis caching, and AWS-based deployment pipelines, achieving sub-100ms data processing latency.}
+    \resumeItem{Collaborated across frontend and backend teams to design modular workflows and system safeguards, enabling flexible transaction handling and secure batch processing.}
+\end{itemize}
+
+\subsection{Lead Blockchain Software Engineer, zkLink Protocol, Singapore \hfill \textit{Apr.2024 -- Jan.2025}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Led cross-functional development coordination across 14+ team members spanning smart contracts, backend infrastructure, and frontend teams, ensuring synchronized delivery and technical alignment.}
+    \resumeItem{Spearheaded NovaSwap concentrated liquidity DEX from 0-to-1, leading team coordination for Uniswap V3-style pools achieving \$4M+ TVL across Layer 2 assets.}
+    \resumeItem{Designed advanced multi-asset liquidity vault (ALP) architecture unifying spot swaps, market making, and leveraged trading through single liquidity source with dynamic risk management.}
+    \resumeItem{Developed comprehensive yield optimization system aggregating rewards from EigenLayer restaking, LRT protocols, and zkLink incentives, delivering institutional-grade returns for liquidity providers.}
+    \resumeItem{Built AGX perpetual trading protocol to production-ready state, implementing oracle-based pricing and zero-slippage execution with automated liquidation and funding rate mechanisms.}
+    \resumeItem{Developed frontend interfaces for ALP supporting stablecoins, ETH, WBTC, and LRTs, enabling unified swap and leveraged trading while managing cross-team dependencies across 3 development streams.}
+    \resumeItem{Implemented Pyth Network oracle integration and coordinated liquidation engine development for MEV-resistant execution across perpetual positions.}
+    \resumeItem{Created comprehensive GraphQL indexing infrastructure using The Graph for LP positions, trading analytics, and real-time position tracking across both protocols.}
+    \resumeItem{Implemented session key–based delegated signing in zkLink Nova’s magicLink SDK, enabling secure cross-chain transactions through shareable links and improving developer integration workflow.}
+\end{itemize}
+
+\vspace{30pt}
+
+\subsection{Blockchain Software Engineer, OpenEden, Singapore \hfill \textit{Apr.2023 -- Mar.2024}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Built comprehensive DApp frontend supporting OpenEden protocol's growth to \$150M+ TVL, serving 130+ institutional clients across Binance Labs-backed tokenized US Treasury Bills platform.}
+    \resumeItem{Developed cross-chain vault interfaces for Ethereum, Arbitrum, and XRP Ledger, enabling seamless interaction with Moody's "A"-rated TBILL tokens and automated yield distribution systems.}
+    \resumeItem{Architected modular component library integrating Wagmi, Viem, Ethers.js, and Typechain for enterprise-grade KYC/AML workflows and institutional treasury management interfaces.}
+    \resumeItem{Led frontend development for River Finance, implementing DFS automation with proxy account (DS-Proxy) interfaces for leverage vault management and automated rebalancing mechanisms.}
+    \resumeItem{Implemented sophisticated FlashLoan integration and staking token incentive systems with comptroller-based point accumulation, contributing to institutional access for RWA-backed leveraged positions.}
+\end{itemize}
+
+\subsection{Blockchain Frontend Engineer, KONOMI Network \& So-Col, Singapore \hfill \textit{Apr.2022 -- Apr.2023}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Built comprehensive P2P lending protocol frontend for KONOMI Network enabling user-controlled yield farming with custom pool creation, interest rate setting, and collateral management on Polkadot ecosystem.}
+    \resumeItem{Developed cross-chain asset management interface integrating custom Konomi Oracle for accurate price feeds across BSC, Ethereum, and Polkadot networks supporting minority currency lending markets.}
+    \resumeItem{Engineered real-time WebSocket and Server Side Event systems processing 10K+ concurrent users for live trading data, liquidation alerts, and governance proposal updates.}
+    \resumeItem{Contributed to So-Col Web3 social platform development, implementing NFT-gated community features and creator monetization tools for \$4.5M DWF Labs-backed platform serving 300+ creators.}
+    \resumeItem{Applied Agile methodologies using JIRA, Jenkins, and GitHub for continuous integration across both protocols, maintaining 95\% test coverage with Jest and comprehensive Solidity unit testing.}
+\end{itemize}
+
+\subsection{Software Engineer, DBS Bank, Taipei, Taiwan \hfill \textit{Mar.2021 -- Mar.2022}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Selected through competitive DBS Hack2Hire program, joining DBS Taiwan engineering team to develop enterprise-grade digital banking and credit card solutions serving millions of customers.}
+    \resumeItem{Implemented critical hot-fixes and new features for credit card and lending platforms, collaborating with Singapore-based engineering teams on mission-critical financial services.}
+    \resumeItem{Enhanced DBS Digital Taiwan application stability by reducing frequent crash incidents and improving overall responsiveness through targeted debugging and large-scale code refactoring.}
+    \resumeItem{Built responsive React-based interfaces with TypeScript, Redux-Saga state management, and comprehensive Jest testing frameworks meeting financial industry compliance standards.}
+    \resumeItem{Collaborated across Singapore-Taiwan engineering teams using Agile methodologies, JIRA workflow management, and Jenkins CI/CD pipelines for seamless cross-border development coordination.}
+\end{itemize}
+
+\subsection{Frontend Developer, Eatgether (Eatme Internet), Taipei, Taiwan \hfill \textit{Mar.2020 -- Nov.2020}}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Developed and maintained Taiwan's largest social meetup platform serving 1M+ users, enabling face-to-face social connections through 10,000+ hosted gatherings with zero safety incidents.}
+    \resumeItem{Built comprehensive admin dashboard for sales department optimizing advertisement implementations and essential platform controls, supporting 290\% monthly revenue growth.}
+    \resumeItem{Implemented real-time features using Vue.js, React, WebSocket, and SASS, integrating AWS Lambda and S3 for scalable cloud infrastructure supporting rapid user growth.}
+    \resumeItem{Collaborated with backend teams on platform development during company's pre-Series A funding round, contributing to expansion plans targeting East Asia's largest meetup platform.}
+\end{itemize}
+
+\vspace{10pt}
+
+% Awards & Certifications
+\section{Certifications}
+\textbf{DBS Bank SRE Advanced Practitioner Certification} \hfill \textit{Oct.2021}\\
+Site reliability engineering and production infrastructure management\\
+\textbf{DBS Bank Application Security Titan Bronze Level} \hfill \textit{Mar.2021}\\
+Advanced application security practices and vulnerability assessment\\
+
+\vspace{0pt}
+
+% Selected Projects Section
+\section{Selected Projects}
+\textbf{create-web3-turbo - Web3 Development Monorepo Template} \hfill \textit{Oct.2022}\\
+\textit{TypeScript, Next.js, Turborepo, Hardhat | github.com/memoriaXII/create-web3-turbo}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Architected production-ready Web3 monorepo template achieving 144+ GitHub stars and 23+ forks, serving as foundation for multiple DeFi projects.}
+    \resumeItem{Built comprehensive development stack integrating Next.js 14, WAGMI hooks, RainbowKit, Hardhat, and Typechain with advanced CI/CD workflows.}
+    \resumeItem{Designed modular architecture supporting smart contract development, frontend integration, and shared component libraries with Docker containerization.}
+\end{itemize}
+\textbf{SkyArk Chronicles Genesis NFT Marketplace - Blockchain Gaming Platform} \hfill \textit{Feb.2022 -- Nov.2022}\\
+\textit{React, TypeScript, Web3.js, Solidity — Binance Labs-backed, \$15M funding}
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+    \resumeItem{Contributed to Singapore's first AAA blockchain gaming studio backed by Binance Labs, developing DeFi protocol DApps for fantasy JRPG with interoperable NFTs and play-and-own mechanics.}
+    \resumeItem{Built sophisticated GameFi interfaces utilizing Solidity smart contracts with comprehensive unit testing and SDK integration, supporting SkyEngine's blockchain-as-a-service platform.}
+    \resumeItem{Implemented real-time WebSocket and Server-Side Event systems for multiplayer gaming features, NFT marketplace functionality, and efficient data communication across the SkyArk Chronicles trilogy.}
+    \resumeItem{Developed frontend solutions using JavaScript, TypeScript, React, Redux-Toolkit, and Jest, integrating Web3.js and Hardhat for seamless Ethereum blockchain interactions.}
+    \resumeItem{Applied Agile methodologies using JIRA, Jenkins, Git, and Docker for streamlined development processes, ensuring high-quality deliverables for this venture-backed gaming ecosystem.}
+\end{itemize}
+
+\end{document}

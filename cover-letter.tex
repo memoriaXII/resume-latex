@@ -1,0 +1,58 @@
+%=== 通用設定與套件 ===
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}    % 可選：classic, casual, banking, oldstyle, fancy
+\moderncvcolor{blue}       % 可選：blue, black, burgundy, green, grey, orange, purple, red
+\usepackage[scale=0.75]{geometry}
+
+% 必要字型設定
+\ifxetexorluatex
+  \usepackage{fontspec}
+  \defaultfontfeatures{Ligatures=TeX}
+  \setmainfont{Latin Modern Roman}
+  \setsansfont{Latin Modern Sans}
+\else
+  \usepackage[T1]{fontenc}
+  \usepackage{lmodern}
+\fi
+
+%=== 個人資料 ===
+\name{Cheng Lei}{Chou (Eli)}
+\title{Curriculum Vitae}  % 或職稱
+\address{Taipei, Taiwan}{}{}
+\phone[mobile]{+886-912-345-678}
+\email{eli@example.com}
+\homepage{memoriaXII.github.io}{memoriaXII.github.io}
+
+%=== 正文開始 ===
+\begin{document}
+
+%--- Resume (CV) 部分 ---
+\makecvtitle
+\section{Education}
+\cventry{2020--2024}{Bachelor of Science in Computer Science}{National Taiwan University}{Taipei}{}{GPA: 4.0/4.3}
+\section{Experience}
+\cventry{2024--Present}{Frontend Developer Intern}{Awesome Tech Co.}{Taipei}{}{Developed Angular-based dashboards with REST APIs.}
+% （你可以按照格式替換成你自己的內容）
+
+\clearpage
+
+%--- Cover Letter 部分 ---
+\recipient{Carissa Yates}{Hiring Manager\\ShellShock}
+\date{\today}
+\opening{Dear Carissa Yates,}
+\closing{Sincerely,}
+\makelettertitle
+
+% 若希望內容左右對齊，可加入下列命令以取消預設的 ragged-right 寫法 :contentReference[oaicite:2]{index=2}
+\usepackage{ragged2e}
+\justifying
+
+I am writing to express my strong interest in the Angular Frontend Developer position at ShellShock. With my experience in building scalable and user-centric Angular applications and my dedication to creating seamless UIs, I am confident I am a great fit for this role.
+
+During my time at Awesome Tech Co., I led development of performant, accessible components that boosted user satisfaction by 30%. I thrive in cross-functional teams and highly value innovation—qualities aligned with ShellShock’s vision.
+
+I look forward to the opportunity to discuss how I can contribute to your team.
+
+\makeletterclosing
+
+\end{document}
